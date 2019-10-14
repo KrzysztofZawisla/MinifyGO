@@ -6,7 +6,7 @@ Program require installed globaly [minify package](https://www.npmjs.com/package
 
 ## Intruction
 1. Make create next to program "minify.json" file.
-2. Create list with files to minify
+2. Create list with files to minify  
 For example:
 ```json
 {
