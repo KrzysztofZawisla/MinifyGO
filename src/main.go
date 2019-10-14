@@ -20,8 +20,6 @@ func checkErr(err error) {
 
 func main() {
 	flag.Parse()
-	_, err := os.Getwd()
-	checkErr(err)
 	minifyJSON, err := ioutil.ReadFile("minify.json")
 	checkErr(err)
 	var minifyJSONStruct map[string]interface{}
