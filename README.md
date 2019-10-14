@@ -1,12 +1,12 @@
 # MinifyGO
-Tool for minifing your JavaScript code.
+Tool for minifying your JavaScript code.
 
 ## Important
-Program require installed globaly [minify package](https://www.npmjs.com/package/minify) from npm.
+The program requires installed globally [minify package](https://www.npmjs.com/package/minify) from npm.
 
 ## Intruction
-1. Make create next to program "minify.json" file.
-2. Create list with files to minify.  
+1. Make next to the program "minify.json" file.  
+2. Create a list with files to minify.  
 For example:
 ```json
 {
@@ -16,7 +16,7 @@ For example:
   ]
 }
 ```
-3. Run program.
+3. Run the program.
 
 ## Flags
 -outputToTheSameFile - When you set this flag to the true program will save minified code to the same file. When you set this flag to the false program will create a new file with extension .min.js next to the origin file.
